@@ -32,7 +32,7 @@ dataset link: https://github.com/propublica/compas-analysis
 1. RFS on Logistic Regression Model 
 2. RFS on Neural Network
    
-### DataSet Bias Mitigation -
+### DataSet Bias Mitigation 
 1. Resampling: Race and Gender 
 -   Oversampling 
 -   Undersampling
