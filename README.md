@@ -2,7 +2,7 @@
 
 ## TO DO
 
-### Exploratory Data Analysis - JL
+### Exploratory Data Analysis 
 1. Race Break Down 
 2. Age Group Break Down
 3. Gender Break Down
@@ -16,7 +16,7 @@
 9. Pivot Table of count of each Decile Scores by race
 10. Decile Scores by Count for Defendants By Race Bar Plot 
 
-### Logistic Regression Model -
+### Logistic Regression Model
 1. basic two feature 
 2. additional feature 
 
@@ -24,15 +24,12 @@
 ### Neural Network Model 
 
 
-### Recursive Feature Selection - JL
-1. Run on Logisticx Regression Model 
+### Recursive Feature Selection 
+1. RFS on Logistic Regression Model 
+2. RFS on Neural Network 
+### DataSet Bias Mitigation -
+1. Resampling: Race and Gender 
 
-### DataSet Bias Mitigation - JL 
-1. Resampling 
-- SMOTE 
 - Oversampling 
-
-### Prediction Validation with Two Year Recidivism
-1. COMPAS vs. Two_Year 
-2. Loegistic vs. Two_Year
-3. Neural Network vs. Two_Year 
+- Undersampling
+- Combination 
