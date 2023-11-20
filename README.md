@@ -1,6 +1,11 @@
 # riskAssessmentCOMPAS
+The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) system is a decision support program used by the U.S. courts to assist judges and probation officers in assessing an individual's likelihood of reoffending. The COMPAS system incorporates predictive machine learning models to compute a risk score that forecasts an individual’s potential for general and violent recidivism. The system’s proprietary multiple risk scales use one’s detailed historical demographic data ranging from prior arrest, employment status, education, to community relations. Judges or probation officers input relevant data and incorporate the resulting risk classification during sentencing.
 
-## TO DO
+## Dataset 
+The dataset we have provided contains variables used by the COMPAS algorithm in scoring defendants, along with the outcomes of the defendants within 2 years of the resulting decision. This dataset includes over 10,000 criminal defendants from Broward County, Florida between 2013-2014. COMPAS has only been used within legal boundaries in NY, WI, CA, FL (Broward County). We will use this algorithm to test and determine the fairness of this algorithm, identifying possible pitfalls in the form of biases.
+dataset link: https://github.com/propublica/compas-analysis
+
+## Technical Demo 
 
 ### Exploratory Data Analysis 
 1. Race Break Down 
@@ -20,16 +25,15 @@
 1. basic two feature 
 2. additional feature 
 
-
 ### Neural Network Model 
-
-
+1. Two feature
+   
 ### Recursive Feature Selection 
 1. RFS on Logistic Regression Model 
-2. RFS on Neural Network 
+2. RFS on Neural Network
+   
 ### DataSet Bias Mitigation -
 1. Resampling: Race and Gender 
-
-- Oversampling 
-- Undersampling
-- Combination 
+-   Oversampling 
+-   Undersampling
+-   Combination 
