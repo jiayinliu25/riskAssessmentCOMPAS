@@ -1,3 +1,6 @@
+# Project Website 
+https://sites.duke.edu/compasriskassessment/
+
 # riskAssessmentCOMPAS
 The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) system is a decision support program used by the U.S. courts to assist judges and probation officers in assessing an individual's likelihood of reoffending. The COMPAS system incorporates predictive machine learning models to compute a risk score that forecasts an individual’s potential for general and violent recidivism. The system’s proprietary multiple risk scales use one’s detailed historical demographic data ranging from prior arrest, employment status, education, to community relations. Judges or probation officers input relevant data and incorporate the resulting risk classification during sentencing.
 
