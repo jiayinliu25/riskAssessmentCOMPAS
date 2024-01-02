@@ -25,11 +25,12 @@ dataset link: https://github.com/propublica/compas-analysis
 10. Decile Scores by Count for Defendants By Race Bar Plot 
 
 ### Logistic Regression Model
-1. basic two feature 
-2. additional feature 
+1. Basic two feature model 
+2. Five features based on recursive feature selection 
 
 ### Neural Network Model 
-1. Two feature
+1. Basic two feature model
+2. Five features based on recursive feature selection
    
 ### Recursive Feature Selection 
 1. RFS on Logistic Regression Model 
